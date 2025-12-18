@@ -19,7 +19,7 @@ jobs:
       - name: install dependicies
         run: |
           pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requriments.txt
 
       - name: run pytest
         run: |
